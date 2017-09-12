@@ -1,0 +1,29 @@
+{{> navigation}}
+<script>
+    document.title = 'Pets and Supplies';
+</script>
+<div class="row">
+    <div class="large-12 columns">
+        <ul class='pns-tab' data-tabs id='pns-tabs'>
+            <li class='tabs-title is-active'><a href='#panel1' aria-selected='true'>Dogs</a></li>
+            <li class='tabs-title'><a href='#panel2'>Cats</a></li>
+            <li class='tabs-title'><a href='#panel3'>Cages</a></li>
+            <li class='tabs-title'><a href='#panel4'>Pet Foods</a></li>
+        </ul>
+    </div>
+</div>
+<div class='tabs-content' data-tabs-content='pns-tabs'>
+    <div class='tabs-panel is-active' id='panel1'>
+        {{> dogs}}
+    </div>
+    <div class='tabs-panel' id='panel2'>
+        {{> cats}}
+    </div>
+    <div class="tabs-panel" id="panel3">
+        {{> cages}}
+    </div>
+    <div class="tabs-panel" id="panel4">
+        {{> petfoods}}
+    </div>
+
+</div>

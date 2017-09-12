@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa,CACT,aAAa,CAAE,IAAI,CACnB,gBAAI,CACA,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAEtB,kBAAM,CACF,UAAU,CAAE,MAAM,CAClB,UAAU,CAAE,GAAG,CAEnB,qBAAS,CACL,UAAU,CAAE,GAAG",
+"sources": ["../scss/testimonials.scss"],
+"names": [],
+"file": "testimonials.css"
+}

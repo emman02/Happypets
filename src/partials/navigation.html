@@ -1,0 +1,39 @@
+<div class="top-nav">
+    <div class="large-3 columns logo">
+        <img src="../assets/img/happy-pet-logo.png" alt="">
+    </div>
+    <div class="large-9 columns nav" data-menu-underline-from-center>
+        <a href="index.html">HOME</a>
+        <a href="petsandsupplies.html">PETS & SUPPLIES</a>
+        <a href="about.html">ABOUT</a>
+        <a href="testimonials.html">TESTIMONIALS</a>
+        <a href="contact.html">CONTACT</a>
+        <input id="search" type="text" placeholder="Search...">
+    </div>
+</div><br>
+<div class="burg-icon" id="burg-icon">
+    <a class="icon" data-open='exampleModal1' onclick="openNav()">&#9776;</a>
+</div>
+<div id="mySidenav" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="petsandsupplies.html">PETS & SUPPLIES</a>
+    <a href="about.html">ABOUT</a>
+    <a href="testimonials.html">TESTIMONIALS</a>
+    <a href="contact.html">CONTACT</a>
+
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("arrow-slide").style.display = "none";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("arrow-slide").style.display = "block";
+    }
+</script>

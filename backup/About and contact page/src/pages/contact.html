@@ -1,0 +1,74 @@
+<!-- map -->
+
+<div class="row">
+    <div class="large-12 columns">
+        <h2 align="center">CONTACT US</h2>
+
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 11.5833056,
+                    lng: 122.7820226
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTXHJnRhvgQNDp9beY83U9-dc6MCK1MDw&callback=initMap">
+        </script>
+    </div>
+</div>
+<br>
+
+<!-- location -->
+
+<div class="row">
+    <div class="large-6 columns">
+        <h3>OUR LOCATION</h3>
+        <ul>
+            <li>
+                <span><b>Store Address:</b><br>Barangay Lawaan Roxas City, Capiz Philippines 5800</span> </li>
+            <li>
+                <span><b>Telephone:</b><br> (63)2 – 7270108 </span> </li>
+            <li>
+                <span><b>Fax:</b><br> (070) 412 34 56 </span> </li>
+            <li>
+                <span><b>E-Mail:</b><br> happypets@gmail.com </span> </li>
+            <li>
+                <span><b>Web:</b><br> www.happypets.com </span> </li>
+            </li>
+        </ul>
+        <img src="../assets/img/social media/facebook.png " class="social-circle">
+        <img src="../assets/img/social media/insta.png " class="social-circle">
+        <img src="../assets/img/social media/linkin.png " class="social-circle">
+        <img src="../assets/img/social media/gmail.png " class="social-circle">
+        <img src="../assets/img/social media/pin.png " class="social-circle">
+    </div>
+
+
+    <!-- contact form -->
+
+    <div class="large-6 columns">
+        <h3>CONTACT US NOW</h3>
+        <p>We are here to answer any questions you may have about Happy Pets. Reach out to us and we'll respond as soon as we can. </p>
+        <p> Even if there is some accesories for your pets that you can't find it on Happy Pets, let us know and we promise we'll do our best to find the top quality pet products, accesories, and foods for your beloved pets. </p>
+        <b>Full Name:</b><br>
+        <input type="text" placeholder="Your Full Name..">
+        <br>
+        <b>E-Mail Address:</b><br>
+        <input type="text" placeholder="Your Email..">
+        <br>
+        <b>Message:</b><br>
+        <textarea placeholder="Write something.."></textarea>
+        <button class="hollow button warning">Submit</button>
+    </div>
+</div>
+
+<!-- end -->

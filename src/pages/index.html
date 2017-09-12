@@ -1,151 +1,64 @@
-<div class="row">
-  <div class="large-12 columns">
-    <h1>Welcome to Foundation for Sites</h1>
-  </div>
-</div> 
+<script>
+    document.title = 'Home';
+</script>
+{{> navigation}}
 
 <div class="row">
-  <div class="large-12 columns">
-    <div class="callout">
-      <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-      <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 medium-push-2 columns">
-          <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-        </div>
-        <div class="large-4 medium-4 medium-pull-2 columns">
-          <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-        </div>        
-      </div>
+    <div class="large-12 columns" align="center">
+        <img src="assets/img/tagline1.png" style="width:500px">
     </div>
-  </div>
+</div>
+<div class="row">
+    <div class="large-12 columns">
+        <div class='orbit' role='region' data-orbit>
+            <ul class='orbit-container' style="max-height: 400px;">
+                <button id="arrow-slide" class='orbit-previous'><span class='show-for-sr'>Previous Slide</span>&#9664;&#xFE0E;</button>
+                <button id="arrow-slide" class='orbit-next'><span class='show-for-sr'>Next Slide</span>&#9654;&#xFE0E;</button>
+                <li class='is-active orbit-slide'>
+                    <a href="petsandsupplies.html"><img class='orbit-image' src='assets/img/carousel/catdog.jpg' style="height:400px"></a>
+
+                </li>
+                <li class='orbit-slide'>
+                    <a href="petsandsupplies.html"><img class='orbit-image' src='assets/img/carousel/cage.jpg' style="height:400px"></a>
+                </li>
+                <li class='orbit-slide'>
+                    <a href="petsandsupplies.html"><img class='orbit-image' src='assets/img/carousel/food.jpg' style="height:400px"></a>
+                </li>
+
+            </ul>
+            <nav class='orbit-bullets'>
+                <button class='is-active' data-slide='0'><span class='show-for-sr'>First slide details.</span><span class='show-for-sr'>Current Slide</span></button>
+                <button data-slide='1'><span class='show-for-sr'>Second slide details.</span></button>
+                <button data-slide='2'><span class='show-for-sr'>Third slide details.</span></button>
+
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="row home-content">
+
+    <div class="large-4 columns ">
+        <img src="../assets/img/home/CATDOG LOGO.png" alt="" align="center">
+        <h4>Pet</h4>
+        <p>Pets provide their owners (or guardians) physical and emotional benefits. Walking a dog can supply both the human and pet with exercise, fresh air, and social interaction. Pets can give companionship to elderly adults who do not have adequate
+            social interaction with other people, as well as to other people who are living alone.</p>
+
+    </div>
+
+    <div class="large-4 columns ">
+        <img src="../assets/img/home/foods.png" alt="">
+        <h4>Pet food</h4>
+        <p>Pets provide their owners (or guardians) physical and emotional benefits. Walking a dog can supply both the human and pet with exercise, fresh air, and social interaction. Pets can give companionship to elderly adults who do not have adequate
+            social interaction with other people, as well as to other people who are living alone.</p>
+    </div>
+    <div class="large-4 columns ">
+        <img src="../assets/img/home/CAGE.png" alt="">
+        <h4>Cage</h4>
+        <p> Pet crates are designed to replicate a pet's natural den and as such can provide them with a place of refuge at home or when traveling to new surroundings. Crate training accustoms the dog/cat with the crate. The most common reasons for using
+            a pet crate are for toilet training a new puppy or kitten, taking a pet on short trips inside the car, displaying them at a pet show, or giving a pet a place to go when visitors come to the house.</p>
+
+    </div>
 </div>
 
-<div class="row">
-  <div class="large-8 medium-8 columns">
-    <h5>Here&rsquo;s your basic grid:</h5>
-    <!-- Grid Example -->
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="primary callout">
-          <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-    </div>
-    
-    <hr />
-            
-    <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-    <form>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-12.columns" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <div class="row collapse">
-            <label>Input Label</label>
-            <div class="input-group">
-              <input class="input-group-field" type="text" placeholder="input-group" />
-              <span class="input-group-label">.com</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Select Box</label>
-          <select>
-            <option value="husker">Husker</option>
-            <option value="starbuck">Starbuck</option>
-            <option value="hotdog">Hot Dog</option>
-            <option value="apollo">Apollo</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 medium-6 columns">
-          <label>Choose Your Favorite</label>
-          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-        </div>
-        <div class="large-6 medium-6 columns">
-          <label>Check these out</label>
-          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Textarea Label</label>
-          <textarea placeholder="small-12.columns"></textarea>
-        </div>
-      </div>
-    </form>
-  </div>     
-
-  <div class="large-4 medium-4 columns">
-    <h5>Try one of these buttons:</h5>
-    <p><a href="#" class="small button">Simple Button</a><br/>          
-    <a href="#" class="medium success button">Success Btn</a><br/>
-    <a href="#" class="medium alert button">Alert Btn</a><br/>
-    <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-    <div class="callout">
-      <h5>So many components, girl!</h5>
-      <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-      <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-    </div>
-  </div>
 </div>
